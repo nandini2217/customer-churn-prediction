@@ -15,8 +15,8 @@ st.set_page_config(
 # ── LOAD MODEL ─────────────────────────────────────────
 @st.cache_resource
 def load_model():
-    model = joblib.load('../models/xgboost_churn_model.pkl')
-    with open('../models/feature_columns.json') as f:
+    model = joblib.load('models/xgboost_churn_model.pkl')
+    with open('models/feature_columns.json') as f:
         cols = json.load(f)
     return model, cols
 
