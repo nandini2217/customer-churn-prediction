@@ -1,12 +1,10 @@
-Based on the visual data from your output folder and the existing README structure, here is an updated version that integrates your visualizations and enhances the technical depth of the project.
-
------
 
 # 🚀 Telecom Customer Churn Prediction
 
 An end-to-end machine learning solution designed to identify high-risk customers using **XGBoost**. This project transitions from raw data exploration to a fully deployed **Streamlit** application, providing actionable business insights to reduce attrition.
 
 👉 **[Try the Live App](https://nandini2217-customer-churn-prediction-scriptsapp-ezvuoq.streamlit.app/)**
+
 
 ## 📊 Exploratory Data Analysis (Insights)
 
@@ -22,6 +20,7 @@ Approximately **26.5%** of the customer base has churned. This imbalance was add
   * **Tenure:** High churn is concentrated in the first **0–5 months**, indicating that early-stage customer retention is critical for long-term LTV (Lifetime Value).
 
 -----
+
 
 ## 📸 Visual Insights
 
@@ -54,6 +53,7 @@ Approximately **26.5%** of the customer base has churned. This imbalance was add
   * **Visualization:** Seaborn, Matplotlib, Plotly
   * **Deployment:** Streamlit, GitHub Actions
 
+
 ## 📈 Model Performance
 
 The model was optimized using Hyperparameter tuning (GridSearchCV) to maximize the ROC-AUC score.
@@ -61,6 +61,7 @@ The model was optimized using Hyperparameter tuning (GridSearchCV) to maximize t
   * **Accuracy:** 75.80%
   * **ROC-AUC Score:** 0.836
   * **Primary Predictors:** Contract type, Tenure, and Monthly Charges.
+
 
 ## 💼 Business Impact
 
@@ -71,6 +72,7 @@ By deploying this predictive model, the business can shift from reactive to proa
   * **Revenue Saved:** Retaining the top 200 high-risk customers results in an estimated **₹12L annual savings**.
 
 -----
+
 
 ## 📂 Project Structure
 
