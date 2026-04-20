@@ -31,14 +31,14 @@ Approximately **26.5%** of the customer base has churned. This imbalance was add
   </tr>
   <tr>
     <td><img src="output/03_charges_internet.png" alt="Charges Internet" width="100%"></td>
-    <td><img src="output/)4_payment_senior.png" alt="Payment Method" width="100%"></td>
+    <td><img src="output/04_payment_senior.png" alt="Payment Method" width="100%"></td>
   </tr>
   <tr>
     <td><img src="output/05_correlation_heatmap.png" alt="Heatmap" width="100%"></td>
     <td><img src="output/06_confusion_matrix.png" alt="Confusion Matrix" width="100%"></td>
   </tr>
   <tr>
-    <td><img src="output/07_feature_importance" alt="Feature Driving Churn" width="100%"></td>
+    <td><img src="output/07_feature_importance.png" alt="Feature Driving Churn" width="100%"></td>
     <td><img src="output/08_roc_curve.png" alt="ROC Curve" width="100%"></td>
   </tr>
 </table>
